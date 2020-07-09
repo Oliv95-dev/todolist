@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: sans-serif,
+    monospace;
+}
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+.rm{
+  background: seagreen;
+  border-radius: 50% ;
+  color: #f0ffff;
+  border: none;
+}
+.done{
+  text-decoration: line-through ;
+}
+.header {
+  font-family: fantasy, 'Copperplate', 'Desdemona', 'Impact', 'Kino';
+  color: indigo;
+  background-color: mistyrose;
+
+}
+.other {
+  font-family: "Padauk Book";
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #dfc;
+  border-color: #ddffcc transparent #dfc transparent;
+  animation: lds-dual-ring 2s linear infinite;
+}
